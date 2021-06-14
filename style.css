@@ -1,0 +1,67 @@
+.map-grid-container{
+  background: #efefef57;
+  border: 1px solid grey;
+  margin: 50px auto;
+  height: 394px;
+  width: 320px; 
+}
+#result{
+ color: black;
+ font-size: 26px;
+ text-align: right;
+ height: 75px;
+}
+
+.number-operator-container{
+  padding: 2px;
+  border: 2px solid #efefef57;
+  background: #efefef;
+  display: grid;
+  grid-gap:1px 1px;
+  grid-template-columns: repeat(4 , 1fr);
+}
+.operator-footer{
+  width: 75px;
+  height: 50px;
+  border:none;
+  background: #ffffff;
+  outline: none;
+  font-size:large;
+}
+.operator{
+  width: 75px;
+  height: 50px;
+  border:none;
+  background: #efefef00;
+  outline: none;
+  font-size:large;
+}
+.number{
+  width: 75px;
+  height: 50px;
+  border:none;
+  background: #ffffff;
+  outline: none;
+  font-size:large;
+}
+.equals{
+  width: 75px;
+  height: 50px;
+  border:none;
+  background: #03a9f463;
+  outline: none;
+  font-size:large;
+}
+
+.operator-footer:hover{
+  background: grey;
+}
+.operator:hover{
+  background: grey;
+}
+.number:hover{
+  background: grey;
+}
+.equals:hover{
+ background: #2196f3f0;
+}
